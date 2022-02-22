@@ -1,6 +1,6 @@
 const { throwError, validateSlugs } = require('./validation');
 
-const MAX_NB_URLS = 50000;
+const MAX_NB_URLS = 1000;
 
 /**
  * Generate one or more sitemaps, and an accompanying sitemap index if needed
