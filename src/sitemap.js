@@ -88,7 +88,7 @@ function generateURLTag(url, options) {
 
 function escapeUrl(url) {
 	return encodeURI(url)
-		.replaceAll('&',  '&amp;')
+		.replace(/&/g,  '&amp;')
 		.replace("'", '&apos;')
 		.replace('"', '&quot;')
 		.replace('<',   '&lt;')
